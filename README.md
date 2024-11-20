@@ -42,7 +42,7 @@ Here are some highlights of my game development work:
 These are some examples of my software engineering projects:
 
 - **Multi-Level Demand Paging Simulator**
-  - Simulated **multi-level demand paging** with Address Translation Cache (ATC) in C.
+  - Simulated **multi-level demand paging** with Address Translation Cache (ATC) in C++.
   - Implemented custom memory management systems and efficient data structures.
 
 - **Shortest Job Next (SJN) Scheduler**
