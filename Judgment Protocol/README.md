@@ -1,70 +1,33 @@
-# Teddy Barker's Code Samples
+# Judgment Protocol Code Samples
 
-Welcome to my portfolio repository! This is a collection of code samples from my work in **game development** and **software engineering**. These projects showcase my skills, expertise, and contributions to various domains, including gameplay programming, systems design, and software engineering principles.
+This repository contains two key scripts from the game *Judgment Protocol*. These scripts demonstrate gameplay programming concepts, including audio management, dialogue systems, and decision-making logic.
 
----
+## Scripts Overview
 
-## Table of Contents
-- [About Me](#about-me)
-- [Projects](#projects)
-  - [Game Development](#game-development)
-  - [Software Engineering](#software-engineering)
-- [Technologies](#technologies)
-- [Contact](#contact)
-
----
-
-## About Me
-Hi, I'm Teddy Barker, a passionate Gameplay Programmer and Software Engineer. I'm currently pursuing my degree in Computer Science at San Diego State University (Expected Graduation: December 2025). I specialize in creating immersive gameplay systems and robust software solutions, combining my love for technology with creativity.
+### 1. `MusicController.cs`
+- **Purpose**: Manages the game's background music transitions between different states (e.g., menu and gameplay).
+- **Key Features**:
+  - Implements a singleton pattern to ensure a single instance across scenes.
+  - Handles smooth crossfade transitions between audio tracks.
+  - Supports persistent music management across scene transitions.
 
 ---
 
-## Projects
-
-### Game Development
-Here are some highlights of my game development work:
-
-- **Rogue Bot**
-  - A 2D roguelike dungeon crawler shooter game set in space.
-  - Designed and programmed **core gameplay systems** like aiming, shooting, enemy AI, and animations.
-  - Implemented **boss mechanics** with challenging bullet-hell patterns.
-
-- **Judgment Protocol**
-  - An interactive narrative game where players interview potential AIs, evaluating their responses to moral and hypothetical questions.
-  - Designed and implemented a **dialogue system** to handle AI and player interactions.
-  - Designed and implemented the **user interface**, including text bubbles, buttons, graphics, and the core gameplay logic.
-
-- **Unreal Engine Prototypes**
-  - Designed and implemented third-person shooter gameplay systems and explored advanced camera movements.
-  - Programmed **enemy AI** and detection system.
-
-### Software Engineering
-These are some examples of my software engineering projects:
-
-- **Multi-Level Demand Paging Simulator**
-  - Simulated **multi-level demand paging** with Address Translation Cache (ATC) in C++.
-  - Implemented custom memory management systems and efficient data structures.
-
-- **Shortest Job Next (SJN) Scheduler**
-  - Developed a **process scheduling simulator** using exponential averaging for CPU burst prediction in a multi-threaded environment.
+### 2. `GameController.cs`
+- **Purpose**: Manages the core gameplay logic, including interactions, decision-making, and the game's outcome.
+- **Key Features**:
+  - Handles the flow of interviewing characters (humans or AI) and player decisions.
+  - Manages dialogue, including typing animations for questions and responses.
+  - Tracks game state, including admitted robots, denied humans, and overall progression.
+  - Controls character movement, including sine wave animations and fall behavior for denied characters.
 
 ---
 
-## Technologies
-- **Programming Languages**: C, C++, C#, Python, Java
-- **Game Engines**: Unity, Unreal Engine
-- **Version Control**: Git, Github
-- **Specializations**: Gameplay systems, AI, Process Scheduling, Memory Management
+## About
+These scripts showcase key elements of *Judgment Protocol*, highlighting:
+- Audio management for immersive transitions.
+- A complex decision-making system tied to player interaction.
+- Dialogue systems with typing animations and dynamic responses.
 
----
-
-## Contact
-Feel free to reach out if you have any questions or would like to collaborate!
-
-- **Portfolio**: [Teddy Barker](http://www.teddybarkergames.com)
-- **Email**: [thbarker.griz@gmail.com](mailto:thbarker.griz@gmail.com)
-- **Phone**: (626) 673-7944
-
----
-
-Thank you for visiting my repository! 🎮📘
+## Play the Game
+Check out the full game on Itch.io: [Judgment Protocol](https://henry-barker.itch.io/judgment-protocol)

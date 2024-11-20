@@ -37,3 +37,6 @@ These scripts demonstrate gameplay programming in Unity, showcasing:
 - Player mechanics.
 - AI behavior and state management.
 - Integration of animations, sound, and visual effects.
+
+## Play the Game
+Check out the full game on Itch.io: [Judgment Protocol](https://henry-barker.itch.io/rogue-bot)
