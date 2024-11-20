@@ -1,5 +1,4 @@
 //This is the work of Teddy Barker
-//RED ID: 825169794
 
 #ifndef LEVEL_H
 #define LEVEL_H
